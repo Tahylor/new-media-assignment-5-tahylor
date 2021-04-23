@@ -1,0 +1,231 @@
+body {
+    background-color: #dedede;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 1em auto;
+    background-color: white;
+    border: 1px soild silver;
+    box-shadow: 2px 2px 5px black;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: silver;
+}
+
+main {
+    padding: .5em 2em;
+    font-size: 125%;
+}
+
+header {
+    background-image: url(images/colorcrop.jpg);
+    padding: 60px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+header h1 {
+    font-size: 500%;
+    text-align: center;
+}
+
+nav {
+    background-color: aliceblue; 
+    text-transform: uppercase;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    padding: 1em;
+    list-style-type: none;
+}
+
+nav li a {
+    color: gold;
+    text-decoration: none;
+    padding: 1em 2em;
+    
+}
+
+nav li a:hover {
+    background-color: black;
+    border-radius: 2em;
+}
+
+h2 {
+    color: gold;
+    font-size: 170%; 
+}
+
+img {
+    border: 5px solid white;
+    box-shadow: 3px 3px 15px;
+    margin: 0 0 1em 2em;
+    max-width: 50%;
+}
+
+.krystin {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.kyla {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.ceos p {
+    font-size: 1.2em;
+    text-align: left;
+    align-self: center; 
+}
+
+h3 {
+    color: gold;
+    font-size: 150%
+}
+
+.sales {
+    max-width: 100%;
+    margin: 1em 1em 1em 2em;
+}
+
+.welcome p {
+    padding-top: 2em; 
+} 
+
+.grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.lipgloss {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.lip-balm {
+    max-width: 20%;
+    margin: 1em 1em 1em 2em;
+}
+
+.soap {
+     display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.beaded-bracelets {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.women-bangles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.men-bracelets {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.kid-bracelets {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.review-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.review-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.review-three {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+
+.social-btns .btn,
+.social-btns .btn:before,
+.social-btns .btn .fa {
+  transition: all 0.35s;
+  transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+
+.social-btns .btn:before {
+  top: 90%;
+  left: -110%;
+}
+
+.social-btns .btn .fa {
+  transform: scale(1);
+}
+
+
+.social-btns .btn.instagram:before {
+  background-color: #C13584; /* hover color */
+}
+
+.social-btns .btn.instagram .fa {
+  color: #C13584; /* logo color */
+}
+
+.social-btns .btn.facebook:before {
+  background-color: #3b5998; /* hover color */
+}
+
+.social-btns .btn.facebook .fa {
+  color: #3b5998; /* logo color */
+}
+
+.review p {
+    font-size: 1.5em;
+    font-family: century gothic;  
+    text-align: center;
+    align-self: center; 
+}
+
+
+
+
+
+
+
+
+
+

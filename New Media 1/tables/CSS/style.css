@@ -1,0 +1,39 @@
+
+            html{
+                height: 100%
+            }
+            body {
+                height: 100%
+                background-image: url(https://images.homedepot-static.com/productImages/f79e9105-57d7-44fc-b7a1-f5382b8f32ee/svn/kolasus-white-polished-home-decorators-collection-porcelain-tile-nhdkolwhi1224p-64_400.jpg);
+                background-repeat:no-repeat;
+                background-size:cover;
+            }
+            h1{
+                text-align: center;
+                border: 1px solid black;
+                border-width: 8px;
+                border-style: solid;
+                border-color: purple;
+                border-color: pink;
+                border-color: #000000;
+            }
+            span{
+                text-align: center;
+                padding: 50px;
+                border: 1px solid black;
+                /* padding: 50px;
+                margin: 50px; */
+                margin:50px;
+                display: inline block;
+                vertical-align: top;           }
+
+                div{
+                    text-align:center;
+                }
+                .content-div{
+                    text-align:center;
+                    border: 1px solid black;
+                    width:500px;
+                    margin-left:auto;
+                    margin-right:auto;
+                }

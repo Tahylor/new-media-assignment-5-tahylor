@@ -1,0 +1,115 @@
+body {
+    background-color: #F5F5DC;
+    font-family: arial, sans-serif;
+}
+
+.wrapper{
+    width: 960px;
+    margin: 1em auto;
+    background-color: white;
+    border: 1px solid sivler;
+    box-shadow: 2px 2px 5px black;
+}
+
+header {
+    background-image: url(images/bkg_header.jpg);
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 200%;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px black; 
+}
+
+.pic-right {
+    float: right;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid white;
+    box-shadow: 3px 3px 15px black;
+    margin: 0 0 1em 2em; 
+}
+
+
+nav {
+    background-color: #a93d89;
+    text-transform: uppercase;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    padding: 1em;
+    list-style-type: none;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 1em 2em;
+}
+
+nav li a:hover {
+    background-color: black;
+    border-radius:  1.5em;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 1em;
+}
+
+.left-column {
+    font-size: 135%;
+    line-height: 145%;
+    padding: 1em 1em 1em 2em;
+    }
+
+.right-column {
+    background-color: #f4cde8;
+    text-align: center; 
+    border-radius: 30px; 
+    margin: .5em; 
+    box-shadow: 2px 2px 10px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 75%;
+    padding: 1em 1em;
+}
+
+.right-column img {
+    border: 3px solid white; 
+    border-radius: 15px; 
+}
+
+section h2 {
+    font-size: 120%;
+    color: #a93d89; 
+}
+
+.border {
+    border: 1px solid #a93d89; 
+}
+
+.highlights {
+    font-size: 170%;
+    margin: 1em;
+}
+
+footer {
+    background-color: #a93d89;
+    text-align: center; 
+    color: white; 
+    padding: 1em;
+}
+
